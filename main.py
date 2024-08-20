@@ -1,17 +1,20 @@
-import math
+# name = "Andy Simeon"
 
-pi = 3.14
-x = 1
-y = 2
-z = 3
+# first_name = name[0:4]
+# last_name = name[5:]
 
-# print(round(pi))
-print(math.ceil(pi))
-print(math.floor(pi))
-print(abs(pi))
-print(math.pow(pi, 2))
-print(math.sqrt(pi))
-print(min(x, y, z))
-print(max(x, y, z))
+# _var = name[0:11:3]
+# __var = name[::3]
+# reversed___name = name[::-1]
 
+# print(first_name + " " + last_name)
+# print(_var)
+# print(__var)
+# print(reversed___name)
+
+website = "https://google.com"
+
+slice = slice(8, -4, 1)
+
+print(website[slice])
 
