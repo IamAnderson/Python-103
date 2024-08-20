@@ -4,6 +4,8 @@
 
 # print("Hello " + full_name)
 
-height = 186.5
+# height = 186.5
+# print("Your height is: ", str(height) + "cm")
 
-print("Your height is: ", str(height) + "cm")
+name = age = attractive = 3
+print(type(attractive))
