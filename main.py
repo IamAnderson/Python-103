@@ -1,11 +1,14 @@
-# first_name = "Anderson"
-# last_name = "Simeon"
-# full_name = first_name + " " + last_name
+#Type casting = cpnvert a data type to another type cast
+x = 1
+y = 2.0
+z = "3"
 
-# print("Hello " + full_name)
+x = float(x)
 
-# height = 186.5
-# print("Your height is: ", str(height) + "cm")
+y = str(y)
 
-name = age = attractive = 3
-print(type(attractive))
+z= int(z)
+
+print(type(x))
+print(type(y))
+print(type(z))
