@@ -1,20 +1,13 @@
-# name = "Andy Simeon"
+age = int(input("How old are you tho?? :"))
 
-# first_name = name[0:4]
-# last_name = name[5:]
-
-# _var = name[0:11:3]
-# __var = name[::3]
-# reversed___name = name[::-1]
-
-# print(first_name + " " + last_name)
-# print(_var)
-# print(__var)
-# print(reversed___name)
-
-website = "https://google.com"
-
-slice = slice(8, -4, 1)
-
-print(website[slice])
-
+if age >= 18:
+    print("Ohh, you are off age, nice")
+    ans = input("Do you like white chocolate ?? :")
+    if ans == "Yes":
+        print("Uhmm, subarashi,, hehe")
+    elif ans == "No":
+        print("Hmm, okay, what do you like then")
+    else:
+        print("Answer Yes or No")
+else:
+    print("You don't belong here kid")
