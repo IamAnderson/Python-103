@@ -1,8 +1,17 @@
-name = input("What is your name?: ")
-age = int(input("How old you age? :"))
-height = float(input("How tall are you? :"))
+import math
 
-age = age + 1
+pi = 3.14
+x = 1
+y = 2
+z = 3
 
-print("Hello ", name)
-print("You are " + str(age) + "years old and you are " + str(height) + "cm tall")
+# print(round(pi))
+print(math.ceil(pi))
+print(math.floor(pi))
+print(abs(pi))
+print(math.pow(pi, 2))
+print(math.sqrt(pi))
+print(min(x, y, z))
+print(max(x, y, z))
+
+
