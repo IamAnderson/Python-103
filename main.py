@@ -1,7 +1,7 @@
-drinks = ["Coffee", "Soda", "Tea"]
-dinner = ["Pizza", "Burger", "Shawarma"]
-dessert = ["Ice cream", "Cake"]
+student = ("NigX", 21, "male")
 
-food = [drinks, dinner, dessert]
+print(student.count("NigX"))
+print(student.index("male"))
 
-print(food[0][0])
+for i in student:
+    print(i, end=", ")
