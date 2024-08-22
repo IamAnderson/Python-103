@@ -1,17 +1,7 @@
-# foods = ["Pizza", "Burger", "Shawarma"]
+drinks = ["Coffee", "Soda", "Tea"]
+dinner = ["Pizza", "Burger", "Shawarma"]
+dessert = ["Ice cream", "Cake"]
 
-# # foods[0] = "Sushi"
+food = [drinks, dinner, dessert]
 
-# # print(foods)
-
-# # for food in foods:
-# #     print(food)
-
-# foods.append("Hotdog")
-# foods.remove("Hotdog")
-# foods.pop()
-# foods.insert(1, "Cream")
-# foods.insert(0, "Cream")
-# foods.sort()
-# foods.clear
-# print(foods)
+print(food[0][0])
