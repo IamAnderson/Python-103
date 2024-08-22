@@ -1,9 +1,15 @@
-# while 1 == 1:
-#     print("loopie alert!!")
+import time
 
-name = ""
+# for i in range(10):
+#     print(i+1)
 
-while len(name) == 0:
-    name = input("Enter your name: ")
+# for i in range(50, 100 + 1, 2):
+# #     print(i)
 
-print("Hello ", name)
+# for i in "Anderson":
+#     print(i)
+
+for seconds in range(10, 0, -2):
+    print(seconds)
+    time.sleep(1)
+print("Happy new year")
