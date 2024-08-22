@@ -1,7 +1,21 @@
-student = ("NigX", 21, "male")
+utensils = {"fork", "spoon", "knife"}
 
-print(student.count("NigX"))
-print(student.index("male"))
+dishes = {"Bowl", "Plate", "Cup", "knife"}
 
-for i in student:
-    print(i, end=", ")
+# utensils.add("napkin")
+# utensils.remove("fork")
+# utensils.clear()
+
+# utensils.update(dishes)
+
+# dinner_table = utensils.union(dishes)
+
+# print(utensils.difference(dishes))
+
+print(utensils.intersection(dishes))
+
+# for x in utensils:
+#     print(x)
+
+# for x in dinner_table:
+#     print(x)
