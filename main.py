@@ -1,23 +1,17 @@
-# break = used to terminate loop
-# continue = skips to the next iteration of the loop
-# pass = does nothing, acts as a placeholder
+# foods = ["Pizza", "Burger", "Shawarma"]
 
-# while True:
-#     name = input("What is your name: ")
-#     if name != "":
-#         break
+# # foods[0] = "Sushi"
 
+# # print(foods)
 
-# phone_number = "123-456-789"
+# # for food in foods:
+# #     print(food)
 
-# for i in phone_number:
-#     if i == "-":
-#         continue
-#     print(i, end="")
-
-
-for i in range(1, 21):
-    if i == 13:
-        pass
-    else:
-        print(i)
+# foods.append("Hotdog")
+# foods.remove("Hotdog")
+# foods.pop()
+# foods.insert(1, "Cream")
+# foods.insert(0, "Cream")
+# foods.sort()
+# foods.clear
+# print(foods)
