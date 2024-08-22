@@ -1,7 +1,9 @@
-temp = int(input("What is the temperature outside?: "));
+# while 1 == 1:
+#     print("loopie alert!!")
 
-if not (temp >= 0 and temp <= 30):
-    print("Normie Temp")
-elif not (temp > 0 or temp < -5):
-    print("Cold Normie Temp")
-    
+name = ""
+
+while len(name) == 0:
+    name = input("Enter your name: ")
+
+print("Hello ", name)
